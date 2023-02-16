@@ -32,11 +32,31 @@
       </div>
 
       <div class="form-container">
-        <form>
-          <input type="text" name="firstName" placeholder="First Name" />
-          <input type="text" name="lastName" placeholder="Last Name" />
-          <input type="email" name="firstName" placeholder="Email Address" />
-          <input type="password" name="password" placeholder="Password" />
+        <form class="form">
+          <div class="form-group">
+            <input type="text" name="firstName" placeholder="First Name" />
+            <p>First Name cannot be empty</p>
+            <img src="./assets/images/icon-error.svg" alt="Error Icon" />
+          </div>
+
+          <div class="form-group">
+            <input type="text" name="lastName" placeholder="Last Name" />
+            <p>Last Name cannot be empty</p>
+            <img src="./assets/images/icon-error.svg" alt="Error Icon" />
+          </div>
+
+          <div class="form-group">
+            <input type="email" name="firstName" placeholder="Email Address" />
+            <p>Looks like this is not email</p>
+            <img src="./assets/images/icon-error.svg" alt="Error Icon" />
+          </div>
+
+          <div class="form-group">
+            <input type="password" name="password" placeholder="Password" />
+            <p>Password cannot be empty</p>
+            <img src="./assets/images/icon-error.svg" alt="Error Icon" />
+          </div>
+
           <button>Claim your free trial</button>
         </form>
 
