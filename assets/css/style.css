@@ -1,5 +1,13 @@
 /* Global */
 
+:root {
+  --Color-Red: #ff7a7a;
+  --Color-Green: #38cc8c;
+  --Color-Blue: #6055a5;
+  --Dark-Blue: #3e3c49;
+  --Grayish-Blue: #b9b6d3;
+}
+
 * {
   margin: 0;
   padding: 0;
