@@ -22,11 +22,8 @@ body {
   background-color: var(--Color-Red);
   background-image: url(../images/bg-intro-mobile.png);
   font-family: "Poppins", sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 8.8rem 0;
 }
 
 main {
